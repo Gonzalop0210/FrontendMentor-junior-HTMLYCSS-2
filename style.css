@@ -57,6 +57,12 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
+    transition: .3s;
+}
+
+.item__record:hover {
+    background-color: hsl(229, 52%, 19%);
+    cursor: pointer;
 }
 
 .icon__record {
